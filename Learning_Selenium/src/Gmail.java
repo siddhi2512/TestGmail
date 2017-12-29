@@ -53,6 +53,12 @@ public class Gmail {
 	
 	public void logout(){
 		
+		WebElement sign =driver.findElement(By.xpath("//*[@id=\"gb\"]/div[1]/div[1]/div[2]/div[5]/div[1]/a"));
+		sign.click();
+		
+		WebElement signout =driver.findElement(By.id("gb_71"));
+		signout.click();
+		
 		
 	}
 	public static void main(String[] args) {
@@ -63,6 +69,7 @@ public class Gmail {
        gmail.invokegmail();
        gmail.login("siddhisharma025@gmail.com","sid7@happylife");
 	
+       gmail.logout();
 	}
 	
 
