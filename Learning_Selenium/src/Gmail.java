@@ -24,7 +24,7 @@ public class Gmail {
 		    driver.get("http://www.gmail.com");
 		
 	}
-	
+	//login method
 	public void login(String name, String pwd) {
 		
 		
