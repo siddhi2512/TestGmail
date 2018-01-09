@@ -7,6 +7,7 @@ public class Javaarrays {
 		String X[][] = new String[3][4];
 		
 		//row 1 
+		//row
 		 X[0][0]="A";
 		 X[0][1]="B";
 		 X[0][2]="C";
